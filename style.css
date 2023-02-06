@@ -1,0 +1,168 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: salmon;
+    display: grid;
+    place-items: center;
+    overflow-y: hidden;
+    height: 100vh;
+}
+
+/* Pagina 1 */
+
+.login {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 30px;
+    background-color: white;
+    width: 500px;
+    height: 500px;
+}
+
+.login h1 {
+    font-family: Times New Roman;
+}
+
+a {
+    margin: 5px;
+    text-align: center;
+    color:black;
+    background-color: #f2f2f2;
+    border-radius: 20px;
+}
+
+.about {
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+}
+
+/* Pagina 2 */
+
+.opciones {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: white;
+    width: 1000px;
+    height: 500px;
+}
+
+.botonesopcion1 {
+    display: flex;
+    align-items: center;
+    transition: background-color .5s;
+    width: 130px;
+    height: 80px;
+}
+
+.botonesopcion1:hover {
+    background-color: #e1dede;
+}
+
+.opciones .botonesopcion1 {
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+}
+
+.botonesopcion2 {
+    display: flex;
+    align-items: center;
+    transition: background-color .5s;
+    width: 130px;
+    height: 80px;
+}
+
+.botonesopcion2:hover {
+    background-color: #e1dede;
+}
+
+.opciones .botonesopcion2 {
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+    width: 130px;
+}
+
+.botonesopcion3 {
+    display: flex;
+    align-items: center;
+    transition: background-color .5s;
+    width: 130px;
+    height: 80px;
+}
+
+.botonesopcion3:hover {
+    background-color: #e1dede;
+}
+
+.opciones .botonesopcion3 {
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+    width: 130px;
+}
+
+/* Pagina 3 */
+
+.saldo {
+    background-color: white;
+    width: 1000px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.saldo h1 {
+    display: flex;
+    justify-content: center;
+}
+
+.saldo h2 {
+    display: flex;
+    justify-content: center;
+}
+
+.fin {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: black;
+    transition: background-color .5s;
+    height: 80px;
+    width: 150px;
+}
+
+.fin:hover {
+    display: flex;
+    align-items: center;
+    background-color: salmon;
+    width: 150px;
+    height: 80px;
+}
+
+/* Pagina 4 */
+
+.ingresar {
+    background-color: white;
+    width: 1000px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* Pagina 5 */
+
