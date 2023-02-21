@@ -141,6 +141,7 @@ a {
     transition: background-color .5s;
     height: 80px;
     width: 150px;
+    margin: 0 auto;
 }
 
 .fin:hover {
@@ -163,6 +164,3 @@ a {
     justify-content: space-around;
     align-items: center;
 }
-
-/* Pagina 5 */
-
